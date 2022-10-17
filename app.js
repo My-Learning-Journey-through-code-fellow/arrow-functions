@@ -185,4 +185,4 @@ joe.scopeArrow();
 // 2. What is "this" when joe.scopeArrow() is invoked?
 // Window {window: Window, self: Window, document: document, name: '', location: Location, …}
 // 3. Explain why "this" is different when an arrow function is used.
-// 
+// The "this" in the scope arrow isnt specific to anything where as the "this" in the scope is calling back to the constructor above.
